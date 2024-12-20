@@ -1,5 +1,5 @@
 # Data Structrue Review
 
-- Why I share this materials?
-- Just because I like this interesting course
+- Q:Why I share this materials?
+- A:Just because I like this interesting course
 
