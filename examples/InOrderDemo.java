@@ -1,4 +1,4 @@
-package DataStructure;
+package DataStructure.examples;
 
 public class InOrderDemo {
     public static void main(String[] args) {

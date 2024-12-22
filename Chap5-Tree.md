@@ -153,7 +153,7 @@ public static void inorderThreading(ThreadedNode root) {
 **构造方法**：每次选出权值最小的两个节点，创建一个新的节点作为这两个节点的双亲并取代
 这两个节点，不断递归直到最终只剩一个根节点，此时构造的树带权路径和最小，称为赫夫曼树
 
-![img_9.png](img_9.png)
+![img_9.png](./pics/img_9.png)
 
 ---
 
@@ -166,14 +166,14 @@ public static void inorderThreading(ThreadedNode root) {
   - 2.N个结点则有N个链表，它们的头指针又组成一个线性表。为方便访问，采用顺序
     存储结构。
 
-![img_7.png](img_7.png)
+![img_7.png](./pics/img_7.png)
 
 - 孩子兄弟表示法：
   - 每个节点设有两个指针firstChild和nextSibling
   - firstChild:第一个孩子节点（类似左孩子）
   - nextSibling:当前节点的下一个兄弟节点
 
-![img_8.png](img_8.png)
+![img_8.png](./pics/img_8.png)
 
 ### 2.二叉树和森林的转换
 

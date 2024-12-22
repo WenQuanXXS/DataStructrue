@@ -21,13 +21,13 @@
 
 - 有base和top指针，初始时top = base，元素入栈时赋值到top指向的地址，top++，出栈相反
 
-![img.png](img.png)
+![img.png](./pics/img.png)
 
 ## 2.链式栈
 
 - 由于栈只在栈顶作插入和删除操作，因此链栈中不需要头结点，但要注意链栈中指针的方向是从栈顶指向栈底
   的，这正好和单链表是相反的。
-  ![img_1.png](img_1.png)
+  ![img_1.png](./pics/img_1.png)
 
 ## 3.栈的应用
 
@@ -50,7 +50,7 @@
 - 有两个指针front和rear，初始情况下两指针都指向一个空节点，插入元素时将rear指针
 指向的元素的next指向新插入的元素再修正rear，删除元素时将空节点的next指针指向
 next指向的元素的next
-![img_2.png](img_2.png)
+![img_2.png](./pics/img_2.png)
 
 ## 2.循环队列
 

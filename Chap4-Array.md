@@ -93,14 +93,14 @@ LOC(i,j,k)=LOC(0,0,0)+(i×m×n+j×n+k)×L
 - **核心思想**：根据cpot[]数组来把每一行的每一个元素乘上另一个矩阵对应行所有元素
 并在结果矩阵中累加相乘结果。
 
-![img_4.png](img_4.png)
+![img_4.png](./pics/img_4.png)
 
 #### 3）十字链表
 
 - 对于每一个节点有一个right指针和down指针，对于矩阵有两个节点一维数组cheaed和rhead
 分别表示列头节点和行头节点
 
-![img_5.png](img_5.png)
+![img_5.png](./pics/img_5.png)
 
 
 ---
@@ -121,4 +121,4 @@ LOC(i,j,k)=LOC(0,0,0)+(i×m×n+j×n+k)×L
 
 - 对于每一个节点，有标识位，0代表ATOM，1代表LIST
 
-![img_6.png](img_6.png)
+![img_6.png](./pics/img_6.png)
