@@ -109,7 +109,7 @@ class TreeNode{
 
 Try:已知二叉树的中序序列：DCBGEAHFIJK，后序：DCEGBFHKJIA，画出二叉树
 
-### 3.线索二叉树
+### ~~3.线索二叉树~~
 
 - **思想**：不浪费未存储信息的lchild和rchild域，设置LTag和RTag，当Tag = 0时child指向左右孩子，Tag = 1时lchild指向前驱，rchild指向后继（中序遍历下）
 - **实现**：用一个全局变量pre来记录线索化过程中的前驱节点，中序线索化过程中如果遇到没有左子树的节点，就把这个节点的lchild指向前驱，如果前驱也没有右子树，就把前驱的rchild指向当前节点，最后更新pre为当前节点

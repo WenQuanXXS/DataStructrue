@@ -116,7 +116,7 @@ LOC(i,j,k)=LOC(0,0,0)+(i×m×n+j×n+k)×L
 - e.g. LS = (A,(B,C),D)  Head(LS) = A, Tail(LS) = ((B,C),D)
 
 
-### 存储结构
+### ~~存储结构~~
 
 - 对于每一个节点，有标识位，0代表ATOM，1代表LIST
 
